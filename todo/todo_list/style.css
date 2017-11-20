@@ -1,0 +1,127 @@
+.complete {
+    color: green;
+    text-decoration: line-through;
+}
+.delete
+{
+    color: red;
+    text-decoration:  line-through;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.blue {background-color: #008CBA;} /* Blue */
+.red {background-color: #f44336;} /* Red */
+.row{
+    width:5px;
+    height:auto;
+
+}
+/* Style the header */
+.header {
+    background-color: #555555;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+input {
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    color: #008CBA;
+}
+
+/* Style the "Add" button */
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Style the header */
+.header {
+    background-color: darkblue;
+    padding: 30px 40px;
+    color: olivedrab;
+    font-size: 20px;
+
+    text-align: center;
+}
+
+/* Clear floats after the header */
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the input */
+input {
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+.input_update {
+    width: 25%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border: solid;
+
+}
+.text
+{
+   font-size: large;
+    padding : 10px;
+    font-weight: bolder;
+    text-align: left;
+
+}
+
+/* Style the "Add" button */
+.addBtn {
+    padding: 10px;
+    width: 25%;
+    height: 45px;
+    background: darkturquoise;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    font-synthesis: weight;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
